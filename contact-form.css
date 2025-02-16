@@ -166,7 +166,7 @@ box-shadow: -1px -1px 8px 0px #FF6B00; */
 
     .boxes{
       flex-direction: column;
-      border: 2px solid red;
+      /* border: 2px solid red; */
     }
 
     .boxes .box1{
