@@ -1,0 +1,612 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    height: 100vh;
+    background-color: #0A192F;
+}
+
+.first .first-nav{
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 15px;
+    z-index: 1;
+    /* -webkit-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 8px 0px #FF6B00; */
+}
+
+.first .first-nav .logo{
+    font-size: 30px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.first .first-nav .logo span{
+    color: #FF6B00;
+}
+
+.first .first-nav .ul-div ul{
+    margin: 0 auto;
+    position: relative;
+}
+
+.first .first-nav .ul-div ul li{
+    padding-right: 40px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.first .first-nav .ul-div ul li a{
+    color: black;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.first .first-nav .ul-div ul li a:hover{
+    color: #FF6B00;
+}
+
+.hero{
+    width: 80%;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-left: 120px;
+    background-image: url('./images/contact-us-4193523_1920.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 25, 47, 0.35);
+}
+
+.hero h1{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    font-size: 57px;
+    color: white;
+    font-family: "Roboto",serif;
+}
+
+.hero h1 span{
+    color: #FF6B00;
+}
+
+.get{
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid red; */
+    text-align: center;
+}
+
+
+.get h1{
+    padding-top: 40px;
+    font-family: "Roboto",serif;
+}
+
+.get h1 span{
+    color: #FF6B00;
+}
+
+.address-phone{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    display: flex;
+}
+
+.address-phone .address{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    -webkit-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+}
+
+.address-phone .address h2{
+    font-family: "Roboto",serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.address-phone .address h2 span{
+    color: #FF6B00;
+}
+.address-phone .address p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.address-phone .phone{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    -webkit-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+}
+
+.address-phone .phone h2{
+    font-family: "Roboto",serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.address-phone .phone h2 span{
+    color: #FF6B00;
+}
+
+.address-phone .phone p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.email-business{
+    width: 100%;
+    height: 200px;
+    /* border: 2px solid green; */
+    margin-top: 30px;
+    display: flex;
+}
+
+.email-business .email{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    -webkit-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+}
+
+.email-business .email h2{
+    font-family: "Roboto",serif;
+    text-align: center;
+    padding-top: 40px;
+}
+.email-business .email h2 span{
+    color: #FF6B00;
+}
+.email-business .email p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.email-business .business{
+    width: 50%;
+    height: 100%;
+    /* border: 2px solid blue; */
+    -webkit-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+    -moz-box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+    box-shadow: 3px 0px 10px -3px rgba(0,0,0,0.75);
+}
+
+.email-business .business h2{
+    font-family: "Roboto",serif;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.email-business .business h2 span{
+    color: #FF6B00;
+}
+
+.email-business .business p{
+    text-align: center;
+    padding-top: 10px;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+@media screen and (max-width:320px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 35px;
+    }
+
+    .get{
+        width: 100%;
+        height: 350px;
+        text-align: center;
+    }
+
+    .address-phone{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address-phone .address{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .address-phone .phone{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .email-business{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-business .email{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .email-business .business{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (min-width:321px) and (max-width:480px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 35px;
+    }
+
+    .get{
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+
+    .address-phone{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address-phone .address{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .address-phone .phone{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .email-business{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-business .email{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .email-business .business{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 35px;
+    }
+
+    .get{
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+
+    .address-phone{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .address-phone .address{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .address-phone .phone{
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .email-business{
+        width: 100%;
+        height: 400px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .email-business .email{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .email-business .business{
+        width: 100%;
+        margin-top: 10px;
+    }
+    
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 35px;
+    }
+
+    .get{
+        width: 100%;
+        height: 250px;
+        text-align: center;
+    }
+
+    .address-phone{
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .address-phone .address{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .address-phone .phone{
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+
+    .email-business{
+        width: 100%;
+        height: 200px;
+        /* border: 2px solid green; */
+        margin-top: 30px;
+        display: flex;
+        /* flex-direction: column; */
+    }
+
+    .email-business .email{
+        width: 100%;
+        height: 100%;
+        /* border: 2px solid blue; */
+    }
+
+    .email-business .business{
+        width: 100%;
+        /* margin-top: 10px; */
+    }
+    
+}
+
+.foot{
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid red; */
+    /* background-color: #0A192F; */
+}
+
+.foot .text{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 40px;
+    /* border: 3px solid #FF6B00; */
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.foot .text h4{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width:320px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 70px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:321px) and (max-width:480px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 70px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 70px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 80px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}

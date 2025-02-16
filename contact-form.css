@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    height: 130vh;
+    background-color: #0A192F;
+}
+
+.first .first-nav{
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 15px;
+    z-index: 1;
+    /* -webkit-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 8px 0px #FF6B00; */
+}
+
+.first .first-nav .logo{
+    font-size: 30px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.first .first-nav .logo span{
+    color: #FF6B00;
+}
+
+.first .first-nav .ul-div ul{
+    margin: 0 auto;
+    position: relative;
+}
+
+.first .first-nav .ul-div ul li{
+    padding-right: 40px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.first .first-nav .ul-div ul li a{
+    color: black;
+    transition: 0.5s ease;
+}
+
+.first .first-nav .ul-div ul li a:hover{
+    color: #FF6B00;
+}
+
+.boxes{
+    width: 100%;
+    height: 100vh;
+    /* border: 2px solid red; */
+    margin-top: 50px;
+    position: relative;
+    display: flex;
+}
+
+.boxes .box1{
+    width: 40%;
+    height: 100%;
+    border-right: 2px solid white;
+    background-image: url('./images/palace-7421313_1920.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+.boxes .box1::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 25, 47, 0.5);
+}
+
+.boxes .box1 h1{
+    text-align: center;
+    font-family: "Roboto",serif;
+    padding-top: 50%;
+    font-size: 60px;
+    color: white;
+    position: relative;
+    z-index: 1;
+}
+
+.boxes .box1 h1 span{
+    color: #FF6B00;
+}
+.boxes .box2{
+    width: 60%;
+    height: 100%;
+    /* border: 2px solid green; */
+}
+
+.boxes .box2 h1{
+    text-align: center;
+    color: white;
+    font-family: "Roboto",serif;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+.boxes .box2 h1 span{
+    color: #FF6B00;
+}
+
+.boxes .box2 .business-name{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.boxes .box2 .phone-number{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.boxes .box2 .options{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.boxes .box2 .textarea{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.boxes .box2 button{
+    margin-top: 50px;
+    margin-left: 170px;
+    padding: 20px 200px;
+    background-color: #FF6B00;
+    border-radius: 20px;
+    border: none;
+    font-family: "Roboto",serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    transition: 0.5s ease;
+}
+
+.boxes .box2 button:hover{
+    background-color: black;
+}
+
+@media screen and (max-width:320px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .boxes{
+      flex-direction: column;
+      border: 2px solid red;
+    }
+
+    .boxes .box1{
+        display: none;
+    }
+
+    .boxes .box2 h1{
+        width: 200px;
+        text-align: center;
+        color: white;
+        font-family: "Roboto",serif;
+        font-size: 25px;
+        padding-top: 10px;
+        margin-left: 60px;
+    }
+
+    .boxes .box2 .business-name{
+        width: 230px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 40px;
+    }
+    .boxes .box2 .phone-number{
+        width: 230px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .boxes .box2 .options{
+        width: 230px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 40px;
+    }
+    .boxes .box2 .textarea{
+        width: 230px;
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+
+    .boxes .box2 button{
+        margin-top: 20px;
+        margin-left: 80px;
+        padding: 10px 50px;
+        background-color: #FF6B00;
+        border-radius: 20px;
+        border: none;
+        font-family: "Roboto",serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        transition: 0.5s ease;
+    }
+    
+}
+
+@media screen and (min-width:321px) and (max-width:480px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .boxes{
+      flex-direction: column;
+      border: 2px solid red;
+    }
+
+    .boxes .box1{
+        display: none;
+    }
+
+    .boxes .box2 h1{
+        width: 200px;
+        text-align: center;
+        color: white;
+        font-family: "Roboto",serif;
+        font-size: 25px;
+        padding-top: 10px;
+        margin-left: 100px;
+    }
+
+    .boxes .box2 .business-name{
+        width: 280px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    .boxes .box2 .phone-number{
+        width: 280px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .boxes .box2 .options{
+        width: 280px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .boxes .box2 .textarea{
+        width: 280px;
+        margin-left: 70px;
+        margin-top: 20px;
+    }
+
+    .boxes .box2 button{
+        margin-top: 20px;
+        margin-left: 120px;
+        padding: 10px 50px;
+        background-color: #FF6B00;
+        border-radius: 20px;
+        border: none;
+        font-family: "Roboto",serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        transition: 0.5s ease;
+    }
+    
+}
+
+@media screen and (min-width:481px) and (max-width:768px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .boxes{
+      flex-direction: column;
+      border: 2px solid red;
+    }
+
+    .boxes .box1{
+        display: none;
+    }
+
+    .boxes .box2 h1{
+        width: 200px;
+        text-align: center;
+        color: white;
+        font-family: "Roboto",serif;
+        font-size: 25px;
+        padding-top: 10px;
+        margin-left: 230px;
+    }
+
+    .boxes .box2 .business-name{
+        width: 320px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 160px;
+    }
+    .boxes .box2 .phone-number{
+        width: 320px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 160px;
+    }
+    .boxes .box2 .options{
+        width: 320px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 160px;
+    }
+    .boxes .box2 .textarea{
+        width: 320px;
+        margin-left: 160px;
+        margin-top: 20px;
+    }
+
+    .boxes .box2 button{
+        margin-top: 20px;
+        margin-left: 200px;
+        padding: 10px 100px;
+        background-color: #FF6B00;
+        border-radius: 20px;
+        border: none;
+        font-family: "Roboto",serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        transition: 0.5s ease;
+    }
+    
+}
+
+@media screen and (min-width:769px) and (max-width:1024px){
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0px;
+    }
+
+    .boxes{
+      flex-direction: column;
+      border: 2px solid red;
+    }
+
+    .boxes .box1{
+        display: none;
+    }
+
+    .boxes .box2 h1{
+        width: 200px;
+        text-align: center;
+        color: white;
+        font-family: "Roboto",serif;
+        font-size: 25px;
+        padding-top: 10px;
+        margin-left: 400px;
+    }
+
+    .boxes .box2 .business-name{
+        width: 430px;
+        margin: 0;
+        margin-top: 50px;
+        margin-left: 270px;
+    }
+    .boxes .box2 .phone-number{
+        width: 430px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 270px;
+    }
+    .boxes .box2 .options{
+        width: 430px;
+        margin: 0;
+        margin-top: 20px;
+        margin-left: 270px;
+    }
+    .boxes .box2 .textarea{
+        width: 430px;
+        margin-left: 270px;
+        margin-top: 20px;
+    }
+
+    .boxes .box2 button{
+        margin-top: 20px;
+        margin-left: 300px;
+        padding: 15px 150px;
+        background-color: #FF6B00;
+        border-radius: 20px;
+        border: none;
+        font-family: "Roboto",serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: white;
+        transition: 0.5s ease;
+    }
+    
+}

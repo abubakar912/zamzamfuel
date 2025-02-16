@@ -1,0 +1,881 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.first{
+    width: 100%;
+    height: 100vh;
+    background-color: #0A192F;
+}
+
+.first .first-nav{
+    width: 90vw;
+    margin: 0 auto;
+    position: relative;
+    top: 20px;
+    border-radius: 15px;
+    z-index: 1;
+    /* -webkit-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px -1px 8px 0px rgba(0,0,0,0.75);
+box-shadow: -1px -1px 8px 0px #FF6B00; */
+}
+
+.first .first-nav .logo{
+    font-size: 30px;
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    padding-left: 20px;
+}
+
+.first .first-nav .logo span{
+    color: #FF6B00;
+}
+
+.first .first-nav .ul-div ul{
+    margin: 0 auto;
+    position: relative;
+}
+
+.first .first-nav .ul-div ul li{
+    padding-right: 40px;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.first .first-nav .ul-div ul li a{
+    color: black;
+    transition: 0.5s ease;
+}
+
+.first .first-nav .ul-div ul li a:hover{
+    color: #FF6B00;
+}
+
+
+.hero{
+    width: 80%;
+    height: 300px;
+    /* border: 2px solid red; */
+    margin-top: 100px;
+    margin-left: 120px;
+    background-image: url('./images/pexels-lkloeppel-466685.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.hero::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 25, 47, 0.35);
+}
+
+.hero h1{
+    position: relative;
+    z-index: 1;
+    color: white;
+    text-align: center;
+    padding-top: 110px;
+    font-size: 57px;
+    color: white;
+    font-family: "Roboto",serif;
+}
+
+.hero h1 span{
+    color: #FF6B00;
+}
+
+.second{
+    width: 100%;
+    height: 250vh;
+    background-color: #0A192F;
+    position: relative;
+}
+
+.second .sec-text{
+    width: 100%;
+    height: 70px;
+}
+
+.second .sec-text h1{
+    text-align: center;
+    color: white;
+    font-family: "Roboto",serif;
+    padding-top: 5px;
+}
+
+.second .sec-text h1 span{
+    color: #FF6B00;
+}
+
+.second .box1{
+    width: 50%;
+    height: 250px;
+    /* border: 2px solid green; */
+    position: relative;
+    top: 50px;
+    left: 50px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.second .box1:hover{
+    transform: scale(1.1);
+}
+
+.second .box1 h2{
+    color: black;
+    font-family: "Roboto",serif;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.second .box1 h2 span{
+    color: #FF6B00;
+}
+
+.second .box1 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.second .box2{
+    width: 50%;
+    height: 250px;
+    /* border: 2px solid green; */
+    position: relative;
+    top: 100px;
+    left: 600px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.second .box2:hover{
+    transform: scale(1.1);
+}
+
+.second .box2 h2{
+    color: black;
+    font-family: "Roboto",serif;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.second .box2 h2 span{
+    color: #FF6B00;
+}
+
+.second .box2 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.second .box2 p span{
+    font-weight: 700;
+}
+
+
+.second .box3{
+    width: 50%;
+    height: 320px;
+    /* border: 2px solid green; */
+    position: relative;
+    top: 150px;
+    left: 50px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+.second .box3:hover{
+    transform: scale(1.1);
+}
+
+.second .box3 h2{
+    color: black;
+    font-family: "Roboto",serif;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.second .box3 h2 span{
+    color: #FF6B00;
+}
+
+.second .box3 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.second .box4{
+    width: 50%;
+    height: 250px;
+    /* border: 2px solid green; */
+    position: relative;
+    top: 200px;
+    left: 600px;
+    background-color: white;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.second .box4:hover{
+    transform: scale(1.1);
+}
+
+.second .box4 h2{
+    color: black;
+    font-family: "Roboto",serif;
+    font-size: 38px;
+    padding-left: 20px;
+    padding-top: 15px;
+}
+
+.second .box4 h2 span{
+    color: #FF6B00;
+}
+
+.second .box4 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding-left: 20px;
+    padding-top: 5px;
+}
+
+.second .box4 p span{
+    font-weight: 700;
+}
+
+.foot{
+    width: 100%;
+    height: 150px;
+    /* border: 2px solid red; */
+    background-color: #0A192F;
+}
+
+.foot .text{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 40px;
+    /* border: 3px solid #FF6B00; */
+    margin: 0 auto;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.foot .text h4{
+    text-align: center;
+    padding-top: 40px;
+}
+
+
+@media screen and (max-width:320px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 70px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:321px) and (max-width:480px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 70px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:481px) and (max-width:768px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 70px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+
+    .foot .text{
+        width: 100%;
+        height: 50%;
+        position: relative;
+        top: 80px;
+        /* border: 3px solid #FF6B00; */
+        margin: 0 auto;
+        border-radius: 15px;
+        background-color: white;
+    }
+    .foot .text h4{
+        text-align: center;
+        padding-top: 30px;
+        font-size: 15px;
+    }
+}
+ 
+
+@media  screen and (max-width:320px) {
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 40px;
+    }
+
+    .second .sec-text h1{
+        padding-top: 15px;
+    }
+
+    .second .box1{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 50px;
+        left: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box1 h2{
+        font-size: 28px;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+
+    .second .box1 p{
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .second .box2{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 100px;
+        left: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box2 h2{
+        font-size: 28px;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+
+    .second .box2 p{
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .second .box3{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 120px;
+        left: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box3 h2{
+        font-size: 28px;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+
+    .second .box3 p{
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .second .box4{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 150px;
+        left: 10px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box4 h2{
+        font-size: 28px;
+        padding-left: 10px;
+        padding-top: 5px;
+        font-weight: 500;
+    }
+
+    .second .box4 p{
+        font-size: 12px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+}
+
+@media  screen and (min-width:321px) and (max-width:480px) {
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 40px;
+    }
+
+    .second .sec-text h1{
+        padding-top: 15px;
+    }
+
+    .second .box1{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 50px;
+        left: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box1 h2{
+        font-size: 32px;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+
+    .second .box1 p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .second .box2{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 100px;
+        left: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box2 h2{
+        font-size: 32px;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+
+    .second .box2 p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .second .box3{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 140px;
+        left: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box3 h2{
+        font-size: 32px;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+
+    .second .box3 p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+
+    .second .box4{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 170px;
+        left: 15px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box4 h2{
+        font-size: 32px;
+        padding-left: 10px;
+        padding-top: 10px;
+        font-weight: 500;
+    }
+
+    .second .box4 p{
+        font-size: 14px;
+        font-weight: 400;
+        padding-left: 10px;
+        padding-top: 0px;
+    }
+}
+
+@media  screen and (min-width:481px) and (max-width:768px) {
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 20px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 45px;
+    }
+
+    .second .sec-text h1{
+        padding-top: 15px;
+    }
+
+    .second .box1{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 50px;
+        left: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box1 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+
+    .second .box1 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .second .box2{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 100px;
+        left: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box2 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+    .second .box2 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .second .box3{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 140px;
+        left: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box3 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+
+    .second .box3 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .second .box4{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 170px;
+        left: 30px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box4 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+
+    .second .box4 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+}
+
+@media  screen and (min-width:769px) and (max-width:1024px) {
+    .first .first-nav .logo{
+        font-size: 20px;
+        padding-left: 0;
+    }
+
+    .hero{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid red; */
+        margin-top: 50px;
+        margin-left: 50px;
+    }
+
+    .hero h1{
+        position: relative;
+        z-index: 1;
+        color: white;
+        text-align: center;
+        padding-top: 110px;
+        font-size: 45px;
+    }
+
+    .second .sec-text h1{
+        padding-top: 15px;
+    }
+
+    .second .box1{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 50px;
+        left: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box1 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+
+    .second .box1 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .second .box2{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 100px;
+        left: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box2 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+    .second .box2 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .second .box3{
+        width: 90%;
+        height: 300px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 140px;
+        left: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box3 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+
+    .second .box3 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+
+    .second .box4{
+        width: 90%;
+        height: 250px;
+        /* border: 2px solid green; */
+        position: relative;
+        top: 170px;
+        left: 50px;
+        background-color: white;
+        border-radius: 10px;
+    }
+
+    .second .box4 h2{
+        font-size: 34px;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-weight: 500;
+    }
+
+    .second .box4 p{
+        font-size: 15px;
+        font-weight: 400;
+        padding-left: 20px;
+        padding-top: 8px;
+    }
+}
+
+
+
+
+
